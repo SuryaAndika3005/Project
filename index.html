@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departemen Informatika</title>
+    <link href="/Bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/FontAwesome/css/fontawesome.css">
+    <link rel="stylesheet" href="/FontAwesome/css/brands.css">
+    <link rel="stylesheet" href="/FontAwesome/css/solid.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="navbar">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <!-- Logo with Text -->
+        <a class="navbar-brand" href="#">
+          <img src="/img/UNAND.png" id="unand" alt="Universitas Andalas">
+        <div class="txtlogo">
+          <h6>DEPARTEMEN INFORMATIKA</h6>
+          <h4>FAKULTAS TEKNOLOGI INFORMASI</h4>
+        </div> 
+        </a>
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ADMISI</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">TENTANG KAMI</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">PENDIDIKAN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">KEMAHASISWAAN</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">BERITA</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">PPID</a></li>
+          </ul>
+          <select class="form-select form-select-md" style="width: auto;">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+            <option value="id">ID</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+  </section>
+  
+    <section class="carousel">    
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/aedrian-salazar-VbUWr1tf5rI-unsplash.jpg" alt="">
+            <div class="carousel-caption">
+              <h5>Judul 1</h5>
+              <p>Deskripsi Highlight</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="">
+            <div class="carousel-caption">
+              <h5>Judul 2</h5>
+              <p>Deskripsi Highlight</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/islam-wazery-Bcto3TrALq4-unsplash.jpg" alt="">
+            <div class="carousel-caption">
+              <h5>Judul 3</h5>
+              <p>Deskripsi Highlight</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="Akreditasi">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p>Akreditasi Program Studi</p>
+            <h2>Departemen Informatika</h2>
+          </div>
+          <div class="col-7 akre">
+            <h4>Akreditasi</h4>
+            <p>
+              Untuk Program Studi Sarjana Informatika Fakultas Teknologi Informasi terakreditasi Baik dari LAM-Infokom.
+            </p>
+            <h4>Visi</h4>
+            <p>
+              Menjadi Program Studi Informatika yang bereputasi nasional dan bermartabat di bidang Informatika pada tahun 2028
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="dosen">
+      <div class="container">
+        <h2 class="text-center profil">Profil Dosen Informatika</h2>
+        <div class="horizontal-scroll d-flex">
+            <div class="col-2">
+            <div class="card cardosen">
+              <img src="/img/profil.png" class="card-img-top" alt="Dosen 1">
+              <div class="card-body">
+                <h5 class="card-title">Dosen 1</h5>
+                    <div class="overlay">
+                        <a href="#" class="btn btndosen">Lihat Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              <div class="col-2">
+                <div class="card cardosen">
+                  <img src="/img/profil.png" class="card-img-top" alt="Dosen 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Dosen 2</h5>
+                    <div class="overlay">
+                      <a href="#" class="btn btndosen">Lihat Selengkapnya</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card cardosen">
+                  <img src="img/profil.png" class="card-img-top" alt="Dosen 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Dosen 3</h5>
+                    <div class="overlay">
+                      <a href="#" class="btn btndosen">Lihat Selengkapnya</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="card cardosen">
+              <img src="/img/profil.png" class="card-img-top" alt="Dosen 4">
+              <div class="card-body">
+                <h5 class="card-title">Dosen 4</h5>
+                <div class="overlay">
+                      <a href="#" class="btn btndosen">Lihat Selengkapnya</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card cardosen">
+                <img src="img/profil.png" class="card-img-top" alt="Dosen 5">
+                <div class="card-body">
+                  <h5 class="card-title">Dosen 5</h5>
+                  <div class="overlay">
+                    <a href="#" class="btn btndosen">Lihat Selengkapnya</a>
+                    </div>
+                  </div>
+            </div>
+                </div>
+                <div class="col-2">
+                  <div class="card cardosen">
+                    <img src="/img/profil.png" class="card-img-top" alt="Dosen 6">
+                <div class="card-body">
+                  <h5 class="card-title">Dosen 6</h5>
+                  <div class="overlay">
+                    <a href="#" class="btn btndosen">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="card arrow-card cardosen">
+                <div class="card-body text-center mt-4">
+                  <h6 class="card-title">Lainnya</h6>
+                  <a href="#" class="btn btndosen">→</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="news">
+      <div class="container my-4">
+        <h2 class="text-center newshd">Berita</h2>
+        <div class="row">
+          <div class="col-6 news1">
+            <img src="img/news.png" alt="">
+            <h5><a href="" class="news-link newst1">Judul Berita 1</a></h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sapiente asperiores itaque totam, quae quidem at consequuntur eveniet fugit necessitatibus architecto exercitationem veritatis blanditiis adipisci aliquid repellendus. Saepe, voluptas exercitationem.</p>
+          </div>
+      <div class="col-lg-6">
+        <div class="mb-4 news-item d-flex align-items-start">
+          <img src="img/news.png" class="img-fluid news-img" alt="Berita 2">
+          <div class="news-content ms-3">
+            <h5 class="card-title ctnews"><a href="" class="news-link">Judul Berita 2</a></h5>
+            <p class="text-muted">Month Date, Year</p>
+          </div>
+        </div>
+        <div class="mb-4 news-item d-flex align-items-start">
+          <img src="img/news.png" class="img-fluid news-img" alt="Berita 3">
+          <div class="news-content ms-3">
+            <h5 class="card-title ctnews"><a href="" class="news-link">Judul Berita 3</a></h5>
+            <p class="text-muted">Month Date, Year</p>
+          </div>
+      </div>
+      <div class="mb-4 news-item d-flex align-items-start">
+        <img src="img/news.png" class="img-fluid news-img" alt="Berita 3">
+        <div class="news-content ms-3">
+          <h5 class="card-title"><a href="" class="news-link">Judul Berita 4</a></h5>
+          <p class="text-muted">Month Date, Year</p>
+        </div>
+    </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="himalabor">
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="himalabor-item d-flex align-items-start">
+              <img src="img/Logo HMIF no font.png" class="img-fluid himalabor-img" alt="himalabor">
+              <div class="himalabor-content ms-3">
+                <h5 class="card-title cthimalabor"><a href="" class="himalabor-link">Himpunan Mahasiswa Informatika (HMIF)</a></h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magni quisquam eos mollitia ex minus odio blanditiis!</p>
+                <a href="#" class="btn btnhimalabor">Lihat Selengkapnya</a>
+              </div>
+            </div>
+            <div class="himalabor-item d-flex align-items-start">
+              <img src="img/labkom.png" class="img-fluid himalabor-img" alt="himalabor">
+              <div class="himalabor-content ms-3">
+                <h5 class="card-title cthimalabor"><a href="" class="himalabor-link">Laboratorium Komputer</a></h5>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magni quisquam eos mollitia ex minus odio blanditiis!</p>
+                <a href="#" class="btn btnhimalabor">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>        
+        <div class="col-3 informasi-statistik">
+        <div class="mb-4">
+          <h5 class="text-center">Tautan Penting</h5>
+          <ul class="list-unstyled">
+            <li><a href="#"><img src="img/logounand.png" alt=""><i class="fa-solid fa-envelope"></i> Kuesioner Fakultas Teknologi Informasi</a></li>
+            <li><a href="#"><img src="img/logounand.png" alt=""><i class="fa-solid fa-paperclip"></i> Website Resmi Fakultas Teknologi Informasi</a></li>
+            <li><a href="#"><img src="img/logounand.png" alt=""><i class="fa-solid fa-book"></i> E-Learn Fakultas Teknologi Informasi</a></li>
+          </ul>
+        </div>
+      </div>
+          <div class="col-3 video-profil">
+            <div class="mb-4">
+              <h5 class="text-start">Profil Departemen</h5>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/example1" title="Profil Departemen Informatika" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div class="mb-4">
+              <h5 class="text-start">Profil HMIF</h5>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/example2" title="Profil Himpunan Mahasiswa Informatika" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <div>
+              <h5 class="text-start">Profil Laboratorium Komputer</h5>
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/example3" title="Profil Laboratorium Komputer" frameborder="0" allowfullscreen></iframe>
+              </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="testi">
+    <div class="testi">
+      <div class="container mt-4">
+        <div class="row">
+          <h2>Testimoni Alumni</h2>
+          <div class="col-2">
+            <div class="d-flex mb-4">
+              <img src="/img/profil.png" alt="Profile Picture">
+              </div>
+          </div>
+              <div class="col-10">
+                <h4>
+                  <a href="#">Nama Mahasiswa</a>
+                </h4>
+                <p class="text-muted tanggal">Month Date, Year</p>
+                <p class="deskripsi">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur eaque quia odit excepturi aspernatur maiores ducimus repellat deserunt neque in temporibus dolorum earum fugiat, error, nobis, a itaque consequatur...<a href="">More detail</a>
+                </p>
+            </div>
+
+            <div class="col-2">
+              <div class="d-flex mb-4">
+                <img src="/img/profil.png" alt="Profile Picture">
+              </div>
+            </div>
+                <div class="col-10">
+                  <h4>
+                  <a href="#">Nama Mahasiswa</a>
+                </h4>
+                <p class="text-muted tanggal">Month Date, Year</p>
+                <p class="deskripsi">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur eaque quia odit excepturi aspernatur maiores ducimus repellat deserunt neque in temporibus dolorum earum fugiat, error, nobis, a itaque consequatur...<a href="">More detail</a>
+                </p>
+              </div>
+              
+              <div class="col-2">
+                <div class="d-flex mb-4">
+                  <img src="/img/profil.png" alt="Profile Picture">
+                </div>
+              </div>
+              <div class="col-10">
+                <h4>
+                  <a href="#">Nama Mahasiswa</a>
+                </h4>
+                <p class="text-muted tanggal">Month Date, Year</p>
+                <p class="deskripsi">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate pariatur eaque quia odit excepturi aspernatur maiores ducimus repellat deserunt neque in temporibus dolorum earum fugiat, error, nobis, a itaque consequatur...<a href="">More detail</a>
+                </p>
+              </div>
+            </div> 
+          </div>    
+        </div>
+    </section>
+
+    <section class="footer">
+      <footer class="footer mt-5">
+        <div class="container py-4">
+            <div class="row text-white">
+                <div class="col-md-3 mb-4 d-flex align-items-center">
+                    <img src="img/UNAND.png" alt="Universitas Andalas" class="me-3">
+                    <h5 class="faculty-title m-0">Departemen Informatika</h5>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Academic</h5>
+                    <hr class="red-line">
+                    <ul class="list-unstyled">
+                        <li><a href="">Fakultas Teknologi Informasi</a></li>
+                        <li><a href="">Departemen Informatika</a></li>  
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">About</h5>
+                    <hr class="red-line">
+                    <ul class="list-unstyled">
+                        <li><a href="">Tentang FTI UNAND</a></li>
+                        <li><a href="">Manajemen</a></li>
+                        <li><a href="">Tenaga Pengajar</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Connection</h5>
+                    <hr class="red-line">
+                    <ul class="list-unstyled">
+                        <li><a href="">Kontak</a></li>
+                        <li><a href="">Kunjungan Kampus</a></li>
+                        <li><a href="">Media Sosial</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright py-3 mt-5">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <p class="m-0 mx-3">
+                        Copyright &copy; All Rights Reserved 2024, Surya Andika, Departemen Informatika, UNAND.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+    <script src="/Bootstrap/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/575c51821b.js" crossorigin="anonymous"></script>
+  </body>
+  </html>

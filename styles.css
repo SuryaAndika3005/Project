@@ -1,0 +1,517 @@
+:root{
+  --primary: #616161;
+  --secondary: #00498d;
+  --white: #efefef;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  padding: 20px;
+}
+
+section::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px; 
+  background-color: var(--primary);
+  margin-top: 20px;
+}
+
+section:last-of-type::after {
+  display: none;
+}
+
+.navbar{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand img {
+      height: 50px;
+  }
+  .navbar-brand h6 {
+      margin: 0;
+      margin-left: 10px;
+      font-weight: 700;
+      font-size: 12px;
+      text-align: left;
+      color: var(--secondary);
+  }
+
+  .navbar-brand h4{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary);  
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 8px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--secondary);
+  }
+  
+  .form-select{
+    font-size: 12px;
+  }
+  
+  .bg-light {
+    background-color: var(--white) !important;
+  }
+  
+  img {
+    display: block;
+  }
+  .carousel {
+    max-width:  100%; 
+    margin: auto; 
+    aspect-ratio: 21/9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+.carousel-item {
+  transition: transform 1.2s ease-in-out, opacity 1.2s ease-in-out; 
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.5); /* Background transparan */
+  padding: 20px;
+  border-radius: 8px;
+  color: var(--white);
+}
+
+.carousel-caption h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+}
+
+.Akreditasi p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.Akreditasi h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--secondary);
+}
+
+.akre p{
+  line-height: 1.5;
+  text-align: center;
+  margin-top: auto;
+}
+
+.akre h4{
+  text-align: center;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.profil{
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.dosen h5{
+  font-size: 12px;
+}
+
+.cardosen{
+  width: 150px;
+  flex: 0 0 auto;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cardosen:hover {
+  transform: translateY(-5px); /* Efek melayang */
+}
+
+.btndosen{
+  font-size: 10px;
+  background-color: var(--secondary);
+  color: var(--white);
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Efek animasi */
+}
+
+.btndosen:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+/* Scroll Bagian Dosen */
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 15px;
+  scrollbar-width: none;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  height: 6px; /* Ukuran scrollbar */
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--primary); /* Warna scrollbar */
+  border-radius: 8px;
+}
+
+.arrow-card{
+  width: 150px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.arrow-card .btndosen{
+  width: auto;
+  padding: 8px;
+  
+}
+
+.newshd{
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 2rem;
+}
+.news1 img{
+  height: 370px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.news1 h5{
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.news1 p{
+  font-size: 14px;
+  color: var(--primary);
+}
+
+/* Link untuk judul berita */
+.news-link {
+  text-decoration: none; 
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.news-link:hover {
+  color: var(--secondary); /* Warna biru saat hover (Bootstrap primary color) */
+  text-decoration: underline; /* Teks bergaris bawah saat hover */
+}
+
+.text-muted {
+  font-size: 0.9rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row; /* Mengatur layout horizontal */
+  margin-bottom: 18px; 
+}
+
+.news-img {
+  max-width: 240px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.news-content {
+  flex: 1;
+}
+
+.news-content h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.news-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color:var(--primary);
+}
+
+.himalabor-item{
+  margin-top: 1rem; 
+  display: flex;
+  flex-direction: row; /* Mengatur layout horizontal */
+  margin-bottom: 4rem; 
+  border: var(--secondary);
+}
+
+.himalabor-img {
+  max-width: 180px;
+  border-radius: 8px;
+  margin-top: -24px;
+  
+}
+
+.btnhimalabor{
+  text-decoration: none;
+  font-size: 10px;
+  background-color: var(--secondary);
+  color: var(--white);
+  margin-top: 2rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out; /* Efek animasi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btnhimalabor:hover{
+  background-color: var(--primary);
+  color: var(--white);
+}
+.himalabor-link {
+  text-decoration: none; 
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.himalabor-link:hover {
+  color: var(--secondary); /* Warna biru saat hover (Bootstrap primary color) */
+  text-decoration: underline; /* Teks bergaris bawah saat hover */
+}
+
+.himalabor-content {
+  flex: 1;
+}
+
+.himalabor-content h5 {
+  margin: 0;
+  font-size: 18px;
+  
+}
+
+.himalabor-content p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color:var(--primary);
+}
+
+.video-profil h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 18px;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* Rasio 16:9 */
+}
+
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.informasi-statistik h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 18px;
+}
+
+.informasi-statistik a{
+  color: var(--primary);
+  text-decoration: none;
+} 
+
+.informasi-statistik img{
+  width: 250px;
+  align-items: center;
+  margin-bottom: 8px;
+  background-color: var(--white);
+  border-radius: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.informasi-statistik ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.informasi-statistik ul li {
+  margin-bottom: 18px;
+}
+
+.informasi-statistik ul li a {
+  color: var(--primary);
+  font-size: 14px;
+}
+
+.testi h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+
+.testi img{
+  width: 120px;
+  margin: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.testi a{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.testi h4{
+  font-weight: 600;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.tanggal{
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.deskripsi{
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.deskripsi a{
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.footer {
+  background-color: var(--secondary);
+}
+
+.footer img{
+  display: block;
+  width: 75px;
+  margin-bottom: 1rem;
+}
+
+.footer-heading {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: var(--white);
+}
+
+.red-line {
+  border: 2px solid var(--white);
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.faculty-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.footer ul li{
+  margin-bottom: 12px;
+}
+
+/* Copyright Section Styling */
+.footer-copyright {
+  background-color: var(--secondary);
+  color: #a9a9a9;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.footer-copyright p {
+  margin: 0;
+  color: var(--white);
+}
+
+/* Social Icons */
+.social-icons a {
+  color: var(--white); /* Warna merah sesuai desain */
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: var(--primary); /* Warna putih saat hover */
+}
