@@ -261,7 +261,7 @@ section:last-of-type::after {
 
 .horizontal-scroll::-webkit-scrollbar-thumb {
   background-color: var(--primary); /* Warna scrollbar */
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .arrow-card{
@@ -360,6 +360,7 @@ section:last-of-type::after {
   text-align: center;
   transition: all 0.3s ease-in-out; /* Efek animasi */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
 }
 
 .btnhimalabor:hover{
@@ -456,7 +457,7 @@ section:last-of-type::after {
 .section-akademik {
   background: url('/img/rektorat.png') no-repeat center center;
   background-size: cover;
-  color: white;
+  color: var(--white);
   text-align: center;
   padding: 50px 0;
 }
@@ -495,7 +496,7 @@ section:last-of-type::after {
 
 .akademik-card {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 0px;
   transition: transform 0.3s;
 }
 
@@ -510,13 +511,13 @@ section:last-of-type::after {
 .btn-learn {
   font-size: 14px;
   background-color: var(--secondary);
-  color: white;
-  border-radius: 5px;
+  color: var(--white);
+  border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 .btn-learn:hover {
   background-color: var(--secondary);
-  color: white;
+  color: var(--white);
 }
 .testi h2{
   text-align: center;
@@ -557,7 +558,7 @@ section:last-of-type::after {
 
 .deskripsi a{
   text-decoration: none;
-  color: var(--primary);
+  color: var(--secondary);
 }
 
 .btntesti{
@@ -597,7 +598,7 @@ section:last-of-type::after {
   border: 2px solid var(--white);
   width: 100%;
   margin-bottom: 15px;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .faculty-title {
